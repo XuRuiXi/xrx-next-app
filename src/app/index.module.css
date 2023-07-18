@@ -1,0 +1,39 @@
+.root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.root .author {
+  border-radius: 50%;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infoContent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.infoContent a{
+  color: #fff;
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.infoContent a:hover{
+  color: blueviolet;
+}
